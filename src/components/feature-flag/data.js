@@ -5,7 +5,7 @@ const dummyApiResponse = {
     showTicTacToeBoard: true,
     showLiveSearch: false,
     showRandomColorGenerator: true,
-    showAccordian: true,
+    showAccordian: false,
     showTreeView: true,
     showTabs: true
 }
