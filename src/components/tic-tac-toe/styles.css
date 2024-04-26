@@ -1,0 +1,39 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* 垂直居中 */
+    align-items: center; /* 水平居中 */
+    height: 100vh; /* 使容器填满整个视口高度 */
+}
+
+.display-message{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* width: 100%; */
+}
+
+.display-message button {
+    align-self: center;
+    width: 10vw;
+}
+
+.tic-tac-toe-container {
+    clear: both;
+    content: "";
+    display: table;
+    align-self: center;
+}
+
+.square {
+    border: 1px solid red;
+    float: left;
+    font-size: 40px;
+    height: 100px;
+    width: 100px;
+    padding: 0px;
+    text-align: center;
+    margin-right: -1px;
+    margin-top: -1px;
+    cursor: pointer;
+}
